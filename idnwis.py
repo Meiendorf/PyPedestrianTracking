@@ -4,7 +4,7 @@ import imutils
 import argparse
 import time
 from imutils.object_detection import non_max_suppression
-
+#https://drive.google.com/open?id=11R-t6Uc2phSgvueTd1fM7kdCESFOkLhV
 def reinit_tracker(frame, hog, cascade, _type="hog"):
     tracker = cv2.MultiTracker_create()
     if _type == "hog":
